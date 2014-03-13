@@ -21,6 +21,7 @@
 		4408371A18D25AD500706AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440836FC18D25AD500706AAE /* UIKit.framework */; };
 		4408372218D25AD500706AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4408372018D25AD500706AAE /* InfoPlist.strings */; };
 		4408372418D25AD500706AAE /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408372318D25AD500706AAE /* Git_TestTests.m */; };
+		4408372F18D2607F00706AAE /* ADGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408372E18D2607F00706AAE /* ADGTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4408371F18D25AD500706AAE /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		4408372118D25AD500706AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4408372318D25AD500706AAE /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4408372D18D2607F00706AAE /* ADGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADGTest.h; sourceTree = "<group>"; };
+		4408372E18D2607F00706AAE /* ADGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADGTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4408370A18D25AD500706AAE /* Main.storyboard */,
 				4408370D18D25AD500706AAE /* ADGViewController.h */,
 				4408370E18D25AD500706AAE /* ADGViewController.m */,
+				4408372D18D2607F00706AAE /* ADGTest.h */,
+				4408372E18D2607F00706AAE /* ADGTest.m */,
 				4408371018D25AD500706AAE /* Images.xcassets */,
 				440836FF18D25AD500706AAE /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4408372F18D2607F00706AAE /* ADGTest.m in Sources */,
 				4408370518D25AD500706AAE /* main.m in Sources */,
 				4408370918D25AD500706AAE /* ADGAppDelegate.m in Sources */,
 				4408370F18D25AD500706AAE /* ADGViewController.m in Sources */,
